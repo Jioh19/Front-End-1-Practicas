@@ -3,91 +3,72 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/styles.css" />
 		<link rel="stylesheet" href="./assets/css/variables.css" />
-		<link rel="stylesheet" href="./assets/css/styles.css" />.
-		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-		<title>Heroes</title>
+		<title>Pizza&Front</title>
 	</head>
 	<body>
 		<header>
-			<div class="descuentos">
-				<p>Descuentos 20%</p>
-			</div>
-			<div class="titulo">
-				<h1>Card Super Heroes</h1>
-			</div>
+			<nav>
+				<div class="title-gizmo">
+					<img class="title-img" src="./assets/img/VectorPizza.svg" alt="Pizza" />
+					<h1>
+						<span class="first">Pizza</span><span class="second">&</span><span class="third">Front</span>
+					</h1>
+				</div>
+				<div class="navbar">
+					<img class="hamburger" src="./assets/img/bars-solid 1.svg" alt="Bars-solid">
+					<ul class="header-nav">
+						<li>Home</li>
+						<li>Ranking</li>
+						<li>Promoción</li>
+						<li>Contacto</li>
+					</ul>
+				</div>
+			</nav>
 		</header>
 		<main>
-			<section>
-				<button class="plus">+</button>
-				<article class="card">
-					<img src="./assets/img/batman2.jpg" class="card-background" alt="Batcave" />
-					<img src="./assets/img/heart.svg" alt="heart" class="heart bx-burst-hover" />
-					<img src="./assets/img/batman.jpg" class="portrait bx-spin-hover" alt="Batman" />
-					<div class="card-text">
-						<h2>BATMAN</h2>
-						<p>
-							Batman (conocido inicialmente como Bat-Man) es un personaje creado por los estadounidenses Bob Kane y Bill Finger, y propiedad de DC
-							Comics. Apareció por primera vez en la historia titulada «El caso del sindicato químico» de la revista Detective Comics N.º 27,
-							lanzada por la editorial National Publications el 30/3/1939.
-						</p>
-						<button>Ver más</button>
+			<section class="card card-1">
+				<h2>
+					<span class="third">Envío gratis </span><span class="second">comprando </span
+					><span class="third">2 pizzas</span>
+				</h2>
+				<!-- <img class="delivery" src="./assets/img/delivery@2x.png" alt="Delivery" /> -->
+			</section>
+			<section class="card card-2">
+				<h2><span class="third">Podio de pizzas</span></h2>
+				<article>
+					<div class="top5">
+                        <h3>Pizzas top 5</h3>
+						<ol>
+							<li>Muzzarella</li>
+							<li>Hawaiana</li>
+							<li>Muzzarella J&Morron</li>
+							<li>Fugazzeta</li>
+							<li>Calabresa</li>
+						</ol>
 					</div>
-				</article>
-				<article class="card">
-					<picture></picture>
-					<img src="./assets/img/wonderwoman2.jpg" class="card-background" alt="wonderwoman2" />
-					<img src="./assets/img/heart.svg" alt="heart" class="heart bx-burst-hover" />
-					<img src="./assets/img/wonderwoman.png" class="portrait bx-spin-hover" alt="Wonder Woman" />
-					<div class="card-text">
-						<h2>MUJER MARAVILLA</h2>
-						<p>
-							Es una superheroína creada por William Moulton Marston para la editorial DC Comics. Es una princesa guerrera de las Amazonas, pueblo
-							ficticio basado en el de las amazonas de la mitología griega. En su tierra natal es conocida como la princesa Diana de Temiscira
-							pero fuera de esta utiliza la identidad secreta de Diana Prince.
-						</p>
-						<button>Ver más</button>
-					</div>
-				</article>
-				<article class="card">
-					<img src="./assets//img/superman2.jpg" class="card-background" alt="Superman2" />
-					<img src="./assets/img/heart.svg" alt="heart" class="heart bx-burst-hover" />
-
-					<picture>
-						<source class="portrait bx-spin-hover" media="(max-width: 695px)" srcset="./assets/img/superman3.jpg" />
-						<img class="portrait bx-spin-hover" src="./assets/img/superman.jpg" alt="Superman" />
-					</picture>
-
-					<!-- <div class="portrait superman" alt="Superman"></div> -->
-					<div class="card-text">
-						<h2>SUPERMAN</h2>
-						<p>
-							Es un superhéroe que apareció por primera vez en los cómics estadounidenses publicados por DC Comics. ​El personaje fue creado por
-							el escritor estadounidense Jerry Siegel y el artista canadiense Joe Shuster en 1933 cuando ambos se encontraban viviendo en
-							Cleveland, Ohio.
-						</p>
-						<button>Ver más</button>
-					</div>
-				</article>
-				<article class="card harley">
-					<img src="./assets//img/harley2.jpg" class="card-background" alt="Harley2" />
-					<img src="./assets/img/heart.svg" alt="heart" class="heart bx-burst-hover" />
-					<img src="./assets/img/harley.jpg" class="portrait bx-spin-hover" alt="Harley" />
-					<div class="card-text">
-						<h2>Harley Quinn</h2>
-						<p>
-							Harley Quinn es un personaje ficticio creado por los estadounidenses Paul Dini y Bruce Timm para la editorial DC Comics. Quinn hizo
-							su debut en el vigésimo-segundo episodio de Batman: la serie animada, «El favor del Joker», en septiembre de 1992 y se convirtió en
-							una villana recurrente en la serie.
-						</p>
-						<button>Ver más</button>
-					</div>
+					<img class="title-img" src="./assets/img/PizzaFalling@2x.png" alt="PizzaFalling" />
 				</article>
 			</section>
-			<footer>
-				<p>Todos los derechos reservados a FRONT END 1</p>
-				<img src="./assets/img/github.png" alt="github" />
-			</footer>
 		</main>
+		<footer>
+			<nav>
+				<div class="navbar footer-nav">
+					<ul>
+						<li>Home</li>
+						<li>Ranking</li>
+						<li>Promoción</li>
+						<li>Contacto</li>
+					</ul>
+				</div>
+				<div class="title-gizmo">
+					<img src="./assets/img/VectorPizza.svg" alt="pizza" />
+					<h3>
+						<span class="first">Pizza</span><span class="second">&</span><span class="third">Front</span>
+					</h3>
+				</div>
+			</nav>
+		</footer>
 	</body>
 </html>
