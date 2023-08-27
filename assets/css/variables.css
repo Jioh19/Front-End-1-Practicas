@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,800&family=Roboto:wght@100;400;700&family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,800&family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap');
 :root {
-	--navbar-color-background: #222222;
-	--main-color-background: #f3f3f3;
-	--title-color-first: #39b24a;
-	--title-color-second: #fff;
-	--title-color-third: #fc200c;
+	--header-color-secondary: #1CD1B0;
+    --header-color-primary: #00669F;
+    --card-color: #F3F3F3;
+    --font-family: roboto;
 }
