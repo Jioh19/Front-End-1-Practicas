@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,800&family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,800&family=Roboto:wght@300;500;900&family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap');
 :root {
-	--header-color-secondary: #1CD1B0;
-    --header-color-primary: #00669F;
-    --card-color: #F3F3F3;
-    --font-family: roboto;
+	--header-background-color: #e6e6e6;
+	--secondary-background-color: #c4c4c4;
+	--primary-background-color: #ffffff;
+	--background-transparency: rgba(100, 100, 100, 0.3);
+
+	--main-font-color: #005677;
+	--font-family: Ubuntu;
+	--header-font-size: 35px;
+	--header-font-weight: 700;
+	--title-font-size: 20px;
+	--title-font-weight: 700;
+	--main-font-size: 15px;
+	--main-font-weight: 400;
 }
